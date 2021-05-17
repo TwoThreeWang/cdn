@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>网站防火墙</title>
+<style>
+*{margin:0;padding:0;color:#444}
+body{font-size:14px;font-family:"宋体"}
+.main{width:600px;margin:10% auto;}
+.title{background: #ff9800;color: #fff;font-size: 16px;height: 40px;line-height: 40px;padding-left: 20px;}
+.content{background-color:#f3f7f9; height:330px;border:1px dashed #c6d9b6;padding:20px}
+.t1{border-bottom: 1px dashed #c6d9b6;color: #ff4000;font-weight: bold; margin: 0 0 20px; padding-bottom: 18px;}
+.t2{margin-bottom:8px; font-weight:bold}
+ol{margin:0 0 20px 22px;padding:0;}
+ol li{line-height:30px}
+</style>
+</head>
+<body>
+<div class="main">
+<div class="title">您的请求已被拒绝！</div>
+<div class="content">
+<p class="t1">您当前网络有安全风险，已被网站管理员设置拦截！</p>
+<p class="t2">可能原因：</p>
+<ol>
+<li>您提交的内容包含危险的攻击请求；</li>
+<li>您使用了代理程序请求了该页面。</li>
+</ol>
+<p class="t2">如何解决：</p>
+<ol>
+<li>检查提交内容；</li>
+<li>关闭代理程序；</li>
+<li>更换IP或更换使用主流浏览器；</li>
+<li>这是误报，请附上您的IP及客户端UA并联系<a href="/cdn-cgi/l/email-protection#82e3e6efebecc2ece3ece5e7ace1ec" target="_blank" rel="nofollow noopener" class="fa fa-envelope" title="给我发邮件"><span class="label">网站管理员</span></a>解除拦截；</li>
+<li><a href="https://get.nan.ge/" target="_blank" rel="nofollow noopener"><span class="label">点击获取UA。</span></a></li>
+</ol>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
